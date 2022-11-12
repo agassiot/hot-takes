@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=plastic&logo=heroku&logoColor=white" target="_blank"/>
     <img src="https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white" />
     <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB" />
+    <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=plastic&logo=Sequelize&logoColor=white" />
 </p>
 
 
