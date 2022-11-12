@@ -47,4 +47,9 @@ Manages user data and blog posts with Sequelize
 
 ### Links
 
-Github Page https://github.com/agassiot Github Repository https://github.com/agassiot/hot-takes Live Link rbd
+Github Page https://github.com/agassiot \
+Github Repository https://github.com/agassiot/hot-takes \
+Live Link https://deltaix-hot-takes.herokuapp.com/
+
+
+<img width="1509" alt="blog-demo" src="https://user-images.githubusercontent.com/61921580/201497656-05a51aca-003a-4436-a7c7-e48a404cb34b.png">
