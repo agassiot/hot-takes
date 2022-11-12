@@ -1,0 +1,50 @@
+
+<div class="row">
+  <div class="col-auto">
+    <h2>Hello, {{name}}</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>New Hot Take:</h3>
+
+    <form class="form newpost">
+      <div class="form-group">
+        <label for="post-title">Clickbait Title:</label>
+        <input class="form-input" type="text" id="post-title" name="post-title" />
+      </div>
+      
+      <div class="form-group">
+        <label for="post-body">Offensive Content:</label>
+        <textarea class="form-input" id="post-body" name="post-body"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="hidden" id="author" value="{{name}}">
+        <button type="submit" class="btn btn-info">Create</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if posts.length}}
+  <div class="col-md-6 project-list">
+    <h3>Current Take:</h3>
+
+    {{#each posts as |post|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/post/{{post.id}}">{{post.title}}</a></h4>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-sm btn-info edit-butt" data-id="{{post.id}}" id="edit-butt">EDIT</button>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-sm btn-info del-butt" data-id="{{post.id}}" id="del-butt">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+<script src="./js/profile.js"></script>
