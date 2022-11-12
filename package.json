@@ -9,6 +9,9 @@
     "seed": "node seeds/seed.js"
   },
   "author": "∆ix",
+  "engines":{
+    "node": "v18.11.0"
+  },
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",
