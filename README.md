@@ -1,7 +1,7 @@
 
 <h1 align="left"> Hot Takes </h1>  
 <p align="right">
-<a href="https://github.com/agassiot/notefy/blob/main/LICENSE.md">
+<a href="https://github.com/agassiot/hot-takes/blob/main/LICENSE.md">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg?style=plastic" target="_blank"/>
 </a>
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E" target="_blank"/>
