@@ -7,12 +7,12 @@ var helpers = require('./utils/helpers');
 var sequelize = require('./config/connection');
 var SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-var app = express();
 var PORT = process.env.PORT || 3001;
+var app = express();
 var hbs = exphbs.create({ helpers });
 
 var sess = {
-    secret: 'Super secret secret',
+    secret: 'asdfqwer',
     cookie: {
       maxAge: 3000000,
       httpOnly: true,
